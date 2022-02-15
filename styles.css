@@ -1,0 +1,59 @@
+/* //button  */
+
+/* body{
+    font-family: 'Roboto',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #151b29;
+}
+
+button{
+    background-color: rgba(0,0,0,0);
+    color:#ffa250;
+    border:2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all .2s;
+}
+button:hover{
+    border-color: yellow;
+    color: white;
+    box-shadow: 0 .5em 0.5em -.4em yellow;
+    transform: translateY(-.25em);
+    cursor: pointer;
+} */
+
+/*
+
+#container{
+  background-color: #003049;  
+  width:90%;
+  height: 500px;
+  margin:0 auto;
+  border:5px solid #003049;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+
+}
+#container div{
+    width:150px;
+    height:150px;
+    font-size: 4em;
+    text-align: center;
+}
+
+div :nth-of-type(3){
+    align-self: center;
+}
+@media(min-width:600px) and (max-width:800px){
+    h1{
+        color: purple;
+    }
+}
+*/

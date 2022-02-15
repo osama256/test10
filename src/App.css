@@ -1,0 +1,265 @@
+.App {
+  /* text-align: center; */
+  background-color: #282c34;
+}
+.App-header {
+  min-height: 100vh;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center;
+  justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: rgb(175, 175, 175);
+  /* background-color: #316c33; */
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-label{
+  text-align: left;
+  font-size: small;
+  /* background-color: #61dafb; */
+  
+}
+.App-button{
+  /* width:inherit; */
+  /* flex-wrap: wrap; */
+  /* border-radius: 10%; */
+  background-color: rgb(22, 194, 114);
+  color: bisque;
+  /* font-size: small; */
+  /* background-color: #61dafb; */
+}
+.App-line{
+  width:100%;
+  /* background-color: #61dafb; */
+  background-color: #cbd1b3;
+  height: 2rem;
+}
+
+.App-logo {
+  height: 2rem;
+  width:2rem;
+  position: absolute;
+  top:0;
+  left: 0;
+  /* pointer-events: none; */
+}
+.App-error{
+ font-size: 60%; 
+ color: tomato;
+}
+.App-input{
+  /* height: 20px; */
+  /* box-shadow: #61dafb; */
+  /* display: inline-block; */
+  /* border-color: red; */
+  background-color: #c1c1c1;
+}
+.App-input:hover{
+  background-color: #848484;
+  /* border-color: red; */
+  /* border-top-right-radius: 50%; */
+  /* background-color: #61dafb; */
+}
+.App-min{
+  min-width: 150px;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: .61em 3em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.button:hover {
+  background-color: #316c33; /* Green */
+  color: white;
+}
+
+.App-footer{
+color:#979a9a;
+/* font-size: .75rem; */
+font-size: .63rem;
+/* font-size: .65rem; */
+/* margin-right: 2px; */
+}
+.App-fill{
+   min-height: 100vh; 
+   /* background-color: blue; */
+   /* border:2px solid red; */
+   /* padding-bottom: 2rem; */
+   /* background: url("bg1.jpg"); */
+   /* background: url("aa.png"); */
+   /* object-fit: cover; */
+
+  /* width:100%;  */
+  /* min-width: 100vh; */
+}
+.App-link{
+  font-size: 3.6rem;
+  
+}
+.App-img{
+  /* width:100; */
+}
+
+/* .App-home2{
+  width:100px !important;
+  height: 100px !important;
+} */
+.App-getit{
+  /* width:10em;
+  height:3.7em; */
+  width:8.4em;
+  height:2.5em;
+}
+.App-getit2{
+  width:8.9em;
+  height:2.64em;
+}
+.App-indicator{
+  background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-height: 533px) {
+  .App-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}
+
+
+
+@media only screen and (max-width: 576px) {
+   /* .App-indicator{
+    background-color: blue;
+  }
+  .App-footer{
+    font-size: .2rem;
+  }
+  .App-link{
+    /* background-color: red; 
+  }
+  */
+
+
+  .txt{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    font-size: large;
+  }
+  .contact-header{
+    font-size: medium;
+    /* font-weight: bold; */
+  }
+
+/* .App-getit{
+  width:20px;
+  height: 40px;
+} */
+.App-go{
+  width:100px;
+  height: 100px;
+}
+
+}
+
+@media (min-width:577px) and (max-width:796px) {
+  .App-getit{
+    /* margin-top: 10px;
+    margin-bottom: 0; */
+    /* width:10.5em;
+    height:4em; */
+    width:9.40em;
+    height:2.8em;
+  }
+  .App-footer{
+    font-size: .75rem;
+    }
+    .txt{
+      font-size: large;
+      margin-bottom: 20px;
+    }
+    .contact-header{
+      font-size: large;
+    }
+}
+
+@media (min-width:796px)  {
+  .contact-header{
+    font-size: x-large;
+  }
+  .App-getit{
+    width:11.76em;
+    height:3.5em;
+    /* margin-top: 20px; */
+  }
+  .App-footer{
+    font-size: .85rem;
+    }
+  .txt{
+    font-size: large;
+    margin-bottom: 40px;
+  }
+  .App-home{
+    /* flex-direction: column; */
+    /* background-color: purple; */
+    /* margin-top: 20px; */
+  }
+  .App-si{
+    /* width:40%;
+    height:120%; */
+    
+    
+    /* width:'2rem';
+    height:'3.72rem' */
+    /* width:100px;
+    height:2000px  */
+  }
+  /* .App-mi{
+    width:'3rem';
+    height:'5.58rem'
+  }
+  .App-li{
+    width:'2rem';
+    height:'3.72rem'
+  } */
+}
+
+
+
+
